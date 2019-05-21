@@ -1,0 +1,49 @@
+//squre
+for(i=0;i<4;i++)
+{
+  fd(100);
+  rt(90);
+}
+
+//draw TurtleJS
+for(let i=0; i<3;i++) {
+    fd(100)
+    rt(90)
+    fd(100)
+    rt(90)
+    fd(100)
+    rt(90)
+    fd(100)
+    rt(90)
+    
+    rt(30)
+}
+
+//triangel
+rt(30);
+fd(150);
+rt(120);
+fd(150);
+rt(120);
+fd(150);
+
+//many circles
+for(i=0;i<12;i++)
+{
+for(j=0;j<360;j++)
+{
+  fd(1);
+  rt(1);
+}
+rt(30);
+}
+rt(45);
+for(i=0;i<12;i++)
+{
+for(j=0;j<360;j++)
+{
+  fd(1);
+  rt(1);
+}
+rt(30);
+}
