@@ -1,0 +1,37 @@
+1.
+Boolean represents one of two values: true or false.
+ 3 different expression that results a Boolean type:
+ -wet && cold
+ -!happy
+ -rich || poor
+
+ 2.
+ A flowchart is a formalized graphic representation of a logic sequence,
+ work or manufacturing process, organization chart, or similar formalized structure.
+
+ draw a flow chart:
+
+ if name == "Huy Be" ===> print "Hand some".
+         ||
+         ||(false)
+         ||
+         if name == "Huy Big" ===> even_more_handsome = true
+              ||
+              ||(false)
+              ||
+              name !="Huy Be" and "Huy Big ===> webbrowser.open(“https://www.youtube.com/watch?v=04854XqcfCY”)
+
+3.
+Nested conditionals is when one conditional is nested inside another conditional.
+Example code:
+if(x < y)
+{
+    print("x is less than y");
+}
+else
+{
+    if (x > y)                                   //nested conditional
+        print("x is greater than y");
+    else
+        print("x and y must be equal");
+}
