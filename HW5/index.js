@@ -18,7 +18,6 @@
 //The function could be called as if it was in the same JS File as long as the file containing the definition of the function has been loaded before the first use of the function. (chắc vậy ...)
 
 //Ex1
-console.log(calc(1,2,"+"))
 
 let hello = () => {
     for (i = 0; i < 3; i++){
