@@ -18,7 +18,7 @@ btnRemove.addEventListener("click",()=>{
     colorItem.options[colorItem.selectedIndex].remove();     //lấy index của selected item rồi remove
 })
 
-
+//Ex3
 btnUpd.addEventListener("click",()=>changeContent());
 
 let changeContent=(r,c,con)=>{
